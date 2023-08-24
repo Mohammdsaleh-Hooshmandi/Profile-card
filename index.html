@@ -21,12 +21,48 @@
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
-<body>
+<body class="h-screen flex flex-col items-center justify-center bg-Dark-cyan">
 
-  <div class="bg-slate-500">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="relative max-w-[300px] rounded-2xl overflow-hidden text-center bg-white shadow-2xl">
+      <figure>
+        <img src="images/bg-pattern-card.svg" alt="bg pattern card" class="w-full">
+      </figure>
+
+      <img src="images/image-victor.jpg" alt="user image" class="absolute left-1/2 -translate-x-1/2 top-16 rounded-full border-[6px] border-white">
+
+      <h1 class="text-2xl mt-14">
+        <span class="text-Very-dark-desaturated-blue font-bold">Victor Crest</span>
+        <span class="inline-block text-Dark-gray ml-3">26</span>
+      </h1>
+      
+      <p class="text-lg text-Dark-gray mt-2">London</p>
+
+      <div class="flex items-center justify-between px-8 py-7 border-t-2 border-Dark-gray mt-6">
+        <div>
+          <h2 class="font-bold text-lg text-Very-dark-desaturated-blue">80K</h2>
+          <p class="text-xs text-Dark-gray">Followers</p>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-lg text-Very-dark-desaturated-blue">803K</h2>
+          <p class="text-xs text-Dark-gray">Likes</p>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-lg text-Very-dark-desaturated-blue">1.4K</h2>
+          <p class="text-xs text-Dark-gray">Photos</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-10">
+    <div class="text-center text-sm">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-[#3e52a3]">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Mohammdsaleh-Hooshmandi">Mohammdsaleh Hooshmandi</a>.
+    </div>
+  </footer>
 </body>
 
 </html>
